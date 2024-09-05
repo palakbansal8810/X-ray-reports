@@ -1,8 +1,5 @@
 # X-ray-reports
 
-Sure! Here’s a README file for your project that explains its functionality, setup, and usage:
-
----
 
 # Medical Imaging Report Generator
 
@@ -48,7 +45,7 @@ This project provides a comprehensive tool for analyzing medical images using pr
 2. **Run the Script**:
    Execute the script by running:
    ```bash
-   python <script-name>.py
+   python main.py
    ```
 
 3. **Provide Inputs**:
@@ -78,26 +75,14 @@ To generate a report:
    Enter patient's id
    12345
    Enter bone x-ray path:
-   /path/to/bone_xray.jpg
+   'examples\bone x-ray\bone3.png'
    Enter chest x-ray image path:
-   /path/to/chest_xray.jpg
+   'examples\chest-xray\00000473_000.png'
    Enter a brain x-ray image path:
-   /path/to/brain_xray.jpg
+   'examples\brain_tumor\Y250.jpg'
    ```
 
 2. **Review Results**:
    - Check the `outputs` directory for the bar graph and Grad-CAM visualizations.
    - Read the generated report from the console output.
 
-## Troubleshooting
-
-- Ensure all file paths are correct and files are accessible.
-- Check API keys and model paths if errors occur during report generation.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
----
-
-Feel free to adjust or add any information based on your specific requirements and details!
