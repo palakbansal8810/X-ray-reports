@@ -29,7 +29,7 @@ This project provides a comprehensive tool for analyzing medical images using pr
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone 'https://github.com/palakbansal8810/X-ray-reports.git'
    ```
 
 2. **Install the required packages**:
