@@ -137,7 +137,7 @@ def predict_fractured(model, image_path):
     print(f'Raw prediction output of fracture: {prediction}')  # Debugging line
 
     probability = prediction[0][0]
-    class_label = 'The bone is fractured' if probability >= 0.5 else 'The bone is not fractured'
+    class_label = 'The bone is fractured' if probability >= 0.2 else 'The bone is not fractured'
     return class_label, probability
 
 model_brain=keras.models.load_model('models/brain_tumor_dataset.keras')
