@@ -66,6 +66,26 @@ This project provides a comprehensive tool for analyzing medical images using pr
 - **`predict_tumor`**: Function to predict if a brain tumor is present.
 - **`get_gemini_report`**: Function to generate a report using Google Generative AI.
 
+Directory tree should look like
+X-ray-reports/
+├── models/
+│   ├── brain_tumor_dataset.keras
+│   ├── chestXray_model.keras
+│   └── fracture.keras
+│   └── densenet.hdf5
+├── outputs/
+│   ├── bargraph.png
+│   └── gradcam.png
+├── examples/
+│   └── example
+├── main.py
+├── ChestXRay_Medical_Diagnosis_Deep_Learning (1).ipynb
+├── brain-tumor-detection-binary-classification.ipynb
+├── bone-x-ray-imaging-classification-and-analysis.ipynb
+├── sample_labels.csv
+├── dataset.csv
+└── README.md
+
 ## Example
 
 To generate a report:
