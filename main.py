@@ -105,7 +105,7 @@ def compute_gradcam(model, img, mean, std, labels, selected_labels, layer_name='
             col = index % grid_size
             
             axes[row, col].imshow(original_image[0] / 255.0, cmap='gray')
-            axes[row, col].imshow(gradcam, cmap='magma', alpha=min(0.5, predictions[i]))
+            axes[row, col].imshow(gradcam, cmap='magma', alpha=min(0.56, predictions[i]))
             
             axes[row, col].set_title(f"{labels[i]}: {predictions[i]:.3f}")
             axes[row, col].axis('off')
